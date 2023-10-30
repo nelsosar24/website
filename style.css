@@ -1,0 +1,258 @@
+/* body {
+    
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+  } */
+ 
+  .header {
+    padding: 1px;
+    background: #d5e0e2;
+    color: rgb(81, 161, 208);
+    font-family: monospace;
+    font-variant: small-caps;
+    font-display: fallback;
+  }
+
+  /* Add a black background color to the top navigation */
+  .topnav {
+    /*   background-color: #ffffff;*/
+    overflow: hidden;
+    position: center;
+  }
+  .travelNav {
+    /*   background-color: #ffffff;*/
+    overflow: hidden;
+    position: center;
+    text-align: center;
+    margin-top: 50px; /* Adjust this value to add more space */
+    margin-bottom: 40px; /* Adjust this value to add more space */
+
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #826f6f;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: Baskerville;
+    font-size: 17px;
+  }
+
+  .travelNav a {
+    color: #826f6f;
+    text-align: center;
+    padding: 5px 30px;
+    margin: 10px; /* Add margin between links */
+    text-decoration: none;
+    font-family: Baskerville;
+    font-size: 22px;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #559db5;
+    color: rgb(215, 203, 205);
+  }
+
+  .content {
+    position: relative;
+    width: 100%; /* Set the container to span the full width */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  .content img {
+    width: 100%; /* Make the image span the full width of the container */
+    height: auto; /* Maintain the aspect ratio and adjust height accordingly */
+    display: block; /* Ensure the image behaves like a block element */
+}
+.header {
+    width: 100%;
+    text-align: center;
+    background: #c4b0b0;
+    color: rgb(239, 238, 238);
+    font-size: 1.5em;
+  }
+  h1{
+    font-size: 1.5em;
+    padding: 10px 0;
+    font-weight: 400;
+    font-family: Baskerville;
+    text-align: center;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 34%;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+ 
+  .column2 {
+    flex: 34%;
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about{
+    padding: 0 400px;
+    text-align: left;
+    font: 18px/1.4em Times New Roman;
+    color:#7a7a7a;
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+
+}
+.break{
+    padding:35px 10px;
+    color:#7a7a7a;
+    word-spacing: 0.3em;
+    letter-spacing: 0.2em;
+    font-size: 1.5em;
+}
+.bottom{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+  }
+  .outside {
+    position: relative;
+    text-align: right;
+    display: flex;
+    padding: 10px;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text {
+    position: absolute;
+    top: 90%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Baskerville;
+  }
+  
+  .text1 {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    color: rgb(247, 244, 244);
+    font-size: 70px;
+    padding: 10px;
+    font-family: Cursive;
+  }
+  .text2 {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    color: rgb(247, 244, 244);
+    font-size: 45px;
+    padding: 10px;
+    font-family: Cursive;
+  }
+  .text3 {
+    position: absolute;
+    top: 40%;
+    word-wrap: break-word;
+    padding: 0.5rem;
+    left: 55%;
+    color: rgb(92, 65, 65);
+    font-size: 20px;
+    font-family: arial;
+  }
+  .travelHeader h2{
+    font-size: 30px;
+    padding: 0rem;
+    font-family: baskerville;
+    color: rgb(227, 213, 213);
+
+
+  }
+  .travelHeader h1{
+    font-size: 60px;
+    padding: 0rem;
+  }
+  hr{
+    padding: 0px;
+    margin: 0px;    
+  }
+  h2{
+    font-size: 1.5em;
+    padding: 0px 0;
+    font-weight: 400;
+    font-family: Baskerville;
+    text-align: center;
+    
+  }
+  .column2 img {
+    height: 300px; /* Set your desired height */
+    object-fit: cover; /* Maintain aspect ratio and crop if needed */
+    object-position: center; /* Center the image within the container */
+  }
+  .column a {
+    text-align: center;
+  }
+  
+  .blogHeader h2{
+    font-size: 40px;
+    padding: 1rem;
+    color:rgb(143, 106, 106)
+  }
+  .sectionHeader h2{
+    font-weight: thin;
+    font-size: 30px;
+    position: left;
+    text-align: left;
+    color:rgb(49, 49, 49);
+    font-family: serif;
+    font-weight:  thin;
+  }
+  .blogPost{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    margin-top: 50px; /* Adjust this value to add more space */
+  }
+  .blogPost p{
+    font-size: 17px;
+    position: left;
+    text-align: left;
+    color:rgb(49, 49, 49);
+    font-family: serif;
+    font-weight:  thin;
+    word-spacing: 0.2em;
+    line-height: 1.5;
+  }
+  .home{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+  }
