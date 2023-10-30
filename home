@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1" />
+    <title>Sarah's Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- All visible content on the page -->
+  <body>
+    <!-- Top Navagatror -->
+    <div class="topnav">
+      <a href="#contact">CONTACT</a>
+      <a href="#eduation">EDUCATION</a>
+      <a href="/Users/sarahnelson/Documents/Website/travel.html">TRAVEL</a>
+      <a href="/Users/sarahnelson/Documents/Website/About.html">ABOUT</a>
+      <a class="active" href="#home">HOME</a>
+    </div>
+
+    <div class="container1">
+      <div class="content">
+        <p>sarah</p>
+        <img src="_DSC5713.JPG" alt="Snow" style="width: 50%" />
+      </div>
+    </div>
+
+    <section class="header">
+      <h1>
+        23 YEAR OLD WHO LOVES TO TRAVEL, TAKE PICTURES, <br />AND SHARE STORIES
+      </h1>
+    </section>
+    <div class="about">
+      <p>
+        From May 2022, when I graduated college, to January 2023, I have
+        traveled to 4 continents, 14 countries, and 15 states. This was a dream
+        I didn’t think would be possible. So how did a deter from the typical
+        societal route of college immediately to work?
+      </p>
+      <p>
+        My Story of Traveling During my Gap Year: I went into college, always
+        wanting to study abroad and spend an entire semester abroad. Well…2020
+        and COVID had other plans. I was lucky enough that I took a giant leap
+        of faith after my freshman year of college and went and lived in Hong
+        Kong during summer break. After that, I still had a deep burning passion
+        for traveling. So I was deeply excited to live in London during my
+        junior year of college and study abroad. But, plot twist, everything got
+        canceled. So going into my senior year, I accepted my full-time job to
+        start in August 2022. That’s when one of my co-workers told me about the
+        ability to waive our start date and begin in February 2023. So I emailed
+        HR that day, and boom, my start date was changed. And that’s when the
+        panic started. I had this deep desire to travel and experience the world
+        before I started work but now what. I had 9 months and zero plans.
+      </p>
+    </div>
+    <div class="break">
+      <h1>RECENT TRIPS</h1>
+    </div>
+
+    <div class="home">
+      <div class="row">
+        <div class="column">
+          <img
+            src="/Users/sarahnelson/Desktop/IMG_7301.jpg"
+            alt="Snow"
+            style="width: 50%"
+          />
+
+          <img
+            src="/Users/sarahnelson/Desktop/_DSC4407.JPG"
+            alt="Forest"
+            style="width: 50%"
+          />
+
+          <img
+            src="/Users/sarahnelson/Desktop/IMG_4663.jpg"
+            alt="Mountains"
+            style="width: 50%"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img
+            src="/Users/sarahnelson/Desktop/DSC02832.JPG"
+            alt="Snow"
+            style="width: 50%"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="/Users/sarahnelson/Desktop/DSC02892.JPG"
+            alt="Forest"
+            style="width: 50%"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="/Users/sarahnelson/Desktop/26567040-DC19-4101-AD43-AA5243094073.jpg"
+            alt="Mountains"
+            style="width: 50%"
+          />
+        </div>
+      </div>
+
+      <div class="break">
+        <h1>Follow along on some of my recent adventures.</h1>
+      </div>
+    </div>
+
+    <div class="outside">
+      <div class="container">
+        <img
+          src="/Users/sarahnelson/Desktop/_DSC4746.JPG"
+          alt="Image"
+          style="width: 55%"
+          class="image"
+        />
+        <div class="text">Love for Travel</div>
+      </div>
+      <div class="text2">Instagram</div>
+    </div>
+  </body>
+</html>
